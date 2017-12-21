@@ -1,0 +1,32 @@
+ $query="SELECT * FROM `comment` WHERE id= $id ";
+				   $result=$conn->query($query);   
+         while($row=mysqli_fetch_assoc($result))
+            {
+					
+					echo'   <div class="comments">
+                       <div class="comment">
+                         <a href="#" class="comment-avatar pull-left"><img src="'.$row['image'].'" alt=""></a>
+                         <div class="comment-text">
+                           <p>'.$row['comment'].'</p>
+                         </div>
+                       </div>
+                     </div>
+                     </div>';
+					 
+					     <div class="clearfix"></div>
+                     <div class="comments">
+                       <div class="comment">
+                         <a href="#" class="comment-avatar pull-left"><img src="img/user.png" alt=""></a>
+                         <div class="comment-text">
+                           <p>I am just going to paste in a paragraph, then we will add another clearfix.</p>
+                         </div>
+                       </div>
+                       <div class="clearfix"></div>
+                       <div class="comment">
+                         <a href="#" class="comment-avatar pull-left"><img src="img/user.png" alt=""></a>
+                         <div class="comment-text">
+                           <p>I am just going to paste in a paragraph, then we will add another clearfix.</p>
+                         </div>
+                       </div>
+                       <div class="clearfix"></div>
+                     </div>

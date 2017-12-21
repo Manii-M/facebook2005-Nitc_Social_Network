@@ -1,0 +1,198 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>NITC Social Network Registration</title>
+ 
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	  
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	
+	
+	
+
+	
+	
+  </head>
+
+  <body >
+
+   <header >
+ 
+    <div class="container"  >
+	<div class="row">
+	<div class="col-md-4">
+	 <a href="index.html"> <h3 style="color:white;  font-family:monospace; font-size: 31px"><b>NITC Social Network</b></h3> </a>
+	</div>
+ <div class="col-md-8">
+      <form class="form-inline">
+        <div class="form-group">
+          <label class="sr-only" for="exampleInputEmail3">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Enter email" required>
+        </div>
+        <div class="form-group">
+          <label class="sr-only" for="exampleInputPassword3">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Sign in</button><br>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox"> Remember me
+          </label>
+        </div>
+      </form>
+	  </div>
+    </div>
+	</div>
+  </header>
+
+	
+
+    <section id="sec" style="    background: linear-gradient(white, #D3D8E8);">
+	  
+      <div class="container"   >
+	  
+        <div class="row">
+          
+
+                
+            
+           
+          <div class="col-md-8" style="padding-top: 10px;">
+		     
+      <div >
+      <a href="http://nitc.ac.in/">
+    <img  class="logo"  src="img/nitc-logo.png" alt="logo" style="width:50%;" />
+</a>
+
+</div>
+			  
+			</div>
+			
+			
+          <div class="col-md-4" style="padding-top: 10px;">
+            <div >
+              <div class="panel-heading">
+                <h3 class="panel-title">Sign Up Here</h3>
+              </div>
+              <div class="panel-body">
+               
+ 
+    
+  
+  
+     <form action="register.php" method="POST">
+ 
+
+  <div class="form-group" >
+      <div >
+      <input class="form-control" id="fname" type="text" name="fname" placeholder="First Name" required>
+      </div>
+      <br>
+        <div >
+      <input class="form-control" id="lname" type="text" name="lname" placeholder="Last Name" required>
+      </div>
+      <br>
+        <div >
+      <input class="form-control" id="email" type="email" name="email" placeholder="E-mail" required>
+      </div>
+      <br>
+         <div >
+      <input class="form-control" id="mob" type="number" name="mobile"  min="10" placeholder="Mobile" required>
+      </div>
+      <br>
+          <div class='input-group date' id='datetimepicker1'>
+                    <input type='date' placeholder="DD-MM-YYYY" name="dob" class="form-control" />
+                    <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
+         <br>
+      <div>
+      <input type="radio" name="gender" id="male"  value="male" checked ><b>Male</b>
+    
+      <input type="radio" name="gender" id="female" value="female"><b>Female</b>
+    </div>
+     <br>    
+     <button type="submit" value="submit" title="click here to sign up" class="btn btn-primary" id="submit"  >Sign Up </button> <br>
+
+       <hr>
+    
+ <div class="alert alert-success" role="alert">
+  <strong>Well done!</strong> You Have Succefully Registered <a href="https://www.google.co.in/?gws_rd=ssl" target="_blank"class="alert-link">Plese Click Here To Verify Your Email</a>.
+</div>
+
+    
+   <div>
+    <span class="psw" ><a href="#" style="color:#337ab7;"><b>Forgot Password?</b></a></span>       
+  </div>
+  
+  
+</div>
+  
+ 
+</form>
+<br>
+   <div class="text-muted" style="  text-align:center; ">
+ By signing up, you agree to our <br>
+  <a href="#" target="_blank" class="text-muted"  style="text-decoration: underline;">Terms and Conditions</a>
+  and
+  <a href="#2" target="_blank" class="text-muted" style="text-decoration: underline;">Privacy Policy</a>
+</div>
+         <br>
+          <div style=" text-align:center; ">
+
+             
+
+               <a class="text-muted" href="default.asp"><b>About</b></a>  
+              <span  style="display: inline-block;vertical-align: middle;color: #b6b9bb;">&nbsp;|&nbsp;</span>
+             <a class="text-muted" href="default.asp"><b>FAQ</b></a>  
+              <span  style="display: inline-block;vertical-align: middle;color: #b6b9bb;">&nbsp;|&nbsp;</span>
+              <a class="text-muted" href="default.asp"><b>Privacy</b></a>  
+              <span  style="display: inline-block;vertical-align: middle;color: #b6b9bb;">&nbsp;|&nbsp;</span>
+              <a class="text-muted" href="default.asp"><b>Terms</b></a>  
+              <span  style="display: inline-block;vertical-align: middle;color: #b6b9bb;">&nbsp;&nbsp;</span>
+            </div>
+
+      
+              
+
+              
+            
+          
+                 </div>
+              </div>
+            </div>
+			</div>
+      </div>
+            
+          
+        
+      
+    </section>
+
+    <footer>
+      <div class="footer">
+        <p>NITC Social Media  &copy 2017 Mani</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
